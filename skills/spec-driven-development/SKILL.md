@@ -1,6 +1,7 @@
 ---
 name: spec-driven-development
 description: Guide users through the complete Spec-Driven Development workflow from PRD to implementation. Use this skill when users need to create specifications, technical plans, or implement features using a structured development methodology. This skill helps transform high-level requirements into executable specifications across all phases - constitution, specification, clarification, planning, task breakdown, and implementation.
+license: Complete terms in LICENSE.txt
 ---
 
 # Spec-Driven Development Workflow Automation
