@@ -1,0 +1,60 @@
+Spec-Driven Development Skill v1.0.0
+====================================
+
+Created: 2024-01-19
+Standard: Anthropic Skills v1.0
+Repository: https://github.com/spazyCZ/spec-kit-4-monorepo
+
+Purpose:
+--------
+Automate the complete Spec-Driven Development workflow from PRD to implementation.
+Guide users through constitution, specification, clarification, planning, task 
+breakdown, and implementation phases.
+
+Structure:
+----------
+✓ SKILL.md              - Main skill file with proper frontmatter
+✓ LICENSE.txt           - MIT License
+✓ README.md             - Overview and quick start
+✓ USAGE.md              - Detailed example session
+✓ references/           - 5 detailed guides (2,601 lines)
+  ✓ constitution-guide.md
+  ✓ specification-guide.md
+  ✓ planning-guide.md
+  ✓ tasks-guide.md
+  ✓ workflow-examples.md
+✓ scripts/              - Validation tooling
+  ✓ validate_workflow.py
+
+Compliance:
+-----------
+✓ YAML frontmatter with required fields (name, description, license)
+✓ Progressive disclosure design
+✓ Concise main SKILL.md (368 lines)
+✓ Detailed information in references/
+✓ Optional scripts for automation
+✓ No extraneous documentation (no INSTALLATION.md, CHANGELOG.md, etc.)
+
+Integration:
+------------
+- Works with GitHub Spec Kit repository
+- References templates in /templates/
+- Uses scripts in /scripts/
+- Follows Spec-Driven Development methodology
+
+Usage:
+------
+1. Load skill in Claude Desktop or compatible AI assistant
+2. Provide PRD or feature description
+3. Follow guided 6-phase workflow
+4. Receive complete, tested implementation
+
+Validation:
+-----------
+Run: python scripts/validate_workflow.py <feature-dir>
+
+Quality Gates:
+--------------
+✓ Specification quality (testable, prioritized, limited clarifications)
+✓ Plan quality (constitutional compliance, complete research)
+✓ Task quality (ordered dependencies, parallel execution marked)
